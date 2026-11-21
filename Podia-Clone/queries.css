@@ -1,0 +1,130 @@
+@media (max-width: 70rem) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 61.9rem) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 50.6rem) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .navbar {
+        margin-bottom: 5rem;
+    }
+
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .course-section {
+        display: grid;
+        grid-column: 1fr;
+    }
+
+    .course-content {
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .download-section {
+        display: grid;
+        grid-column: 1fr;
+    }
+
+    .download-content {
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .footer {
+        padding: 5rem 2rem;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .footer-link {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 35rem) {
+    html {
+        font-size: 37.5%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .course-section {
+        display: grid;
+        grid-column: 1fr;
+    }
+
+    .course-content {
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .download-section {
+        display: grid;
+        grid-column: 1fr;
+    }
+
+    .download-content {
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .footer {
+        padding: 5rem 2rem;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .footer-link {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}

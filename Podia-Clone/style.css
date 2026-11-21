@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "General Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #757071;
+    background-color: #FDFBF9;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+    color: black;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+/********************* COMPONENTS *********************/
+.btn {
+    color: #FFFFFF;
+    background-color: #4b2aad;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+/********************* SECTIONS ********************* /
+
+/*********** NAVIGATION ***********/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #4b2aad;
+    font-weight: 900;
+}
+
+/*********** HERO ***********/
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+
+    height: calc(100vh - 100px);
+    min-height: 400px;
+}
+
+.hero-image {
+    max-width: 700px;
+    width: 100%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.5rem;
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+/*********** FEATURE ***********/
+.feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 15rem;
+}
+
+.feature-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+    max-width: 1050px;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.feature-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #f5efeb;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.feature-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.card-title {
+    margin-bottom: 1.5rem;
+}
+
+/*********** PRODUCT ***********/
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.product-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*********** COURSE ***********/
+.course-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    gap: 2rem;
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    gap: 1.5rem;
+}
+
+.course-image {
+    max-width: 550px;
+    width: 100%;
+}
+
+.course-link {
+    font-weight: 600;
+    color: #4b2aad;
+}
+
+/*********** TESTIMONIAL ***********/
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.testimonial-stars {
+    max-width: 200px;
+    width: 100%;
+    
+}
+
+.testimonial-text {
+    color: black;
+}
+
+/*********** DOWNLOAD ***********/
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+    gap: 2rem;
+}
+
+.download-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    gap: 1.5rem;
+}
+
+.download-image {
+    max-width: 550px;
+    width: 100%;
+}
+
+.download-link {
+    font-weight: 600;
+    color: #4b2aad;
+}
+
+/*********** CTA SECTION ***********/
+.cta-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.cta-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    background-color: #201445;
+    padding: 5rem 10rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cta-title {
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+.cta-text {
+    margin-bottom: 1rem;
+    color: #f5efeb;
+}
+
+.cta-btn {
+    background-color: #9484c6;
+}
+
+/*********** FOOTER ***********/
+.footer {
+    padding: 10rem;
+    background-color: #F5EFEB;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+}
+
+.footer-link h5 {
+    font-size: 1.7rem;
+} 
+
+.footer-link a {
+    color: #757071;
+    border-bottom: 1px solid currentColor;
+}
+
+.footer-text {
+    display: flex;
+    font-size: 1.4rem;
+    gap: 1.8rem;
+}
+
+.footer-credits {
+    margin-top: 3rem;
+}
+
+.footer-credits a {
+    color: #757071;
+    border-bottom: 1px solid currentColor;
+}
